@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:text="Remaining Qty:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:text="Remaining Qty:"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/bottle2"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/utextbox">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/plus"
+                        android:layout_marginLeft="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/utextbox">
+                    </ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="135dp"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="35dp"
+                        android:src="@drawable/calener"
+                        android:background="@drawable/utextbox">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/income1"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/utextbox">
+                    </ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/i2"
+                        android:layout_marginLeft="35dp"
+                        android:background="@drawable/utextbox">
+                    </ImageView>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/logout1"
+                        android:layout_marginLeft="45dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/utextbox">
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
